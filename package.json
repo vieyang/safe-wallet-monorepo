@@ -17,6 +17,7 @@
     "prepare": "husky"
   },
   "resolutions": {
+    "@safe-global/safe-deployments": "git+https://github.com/safe-global/safe-deployments.git#80f58f20929e8fb4e69eb6ad0d176da0c375e934",
     "@ledgerhq/context-module/ethers": "6.14.3",
     "@gnosis.pm/zodiac/ethers": "6.14.3",
     "@ledgerhq/device-signer-kit-ethereum/ethers": "6.14.3",

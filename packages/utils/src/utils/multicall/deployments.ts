@@ -1451,4 +1451,9 @@ export const MULTICALL_DEPLOYMENTS: MulticallDeployment[] = [
     chainId: 8545,
     url: 'https://explorer.tangle.tools/address/0xcA11bde05977b3631167028862bE2a173976CA11?tab=contract',
   },
+   {
+    name: 'AB Core Testnet',
+    chainId: 26888,
+    url: 'https://explorer.core.testnet.ab.org/address/0xfF9ab064D3B1ff28C0261330fB9285Ab8e28f2A7?tab=contract',
+  },
 ]

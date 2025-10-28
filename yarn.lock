@@ -10247,21 +10247,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@npm:^1.37.35":
-  version: 1.37.35
-  resolution: "@safe-global/safe-deployments@npm:1.37.35"
+"@safe-global/safe-deployments@github:safe-global/safe-deployments#16ae5cb3b75da512250c6ad6d485b17ffabcd887":
+  version: 1.37.48
+  resolution: "@safe-global/safe-deployments@https://github.com/safe-global/safe-deployments.git#commit=16ae5cb3b75da512250c6ad6d485b17ffabcd887"
   dependencies:
     semver: "npm:^7.6.2"
-  checksum: 10/a1683e22d9a6e6ea6bdf32b8edfa03f67b79b0884cfa5132b4e01ce0830ebb4479cff6635fcebeaf6ac198119c10b8e679cda6dbb4b81f5dd045494f79ee7a4b
-  languageName: node
-  linkType: hard
-
-"@safe-global/safe-deployments@npm:^1.37.45":
-  version: 1.37.45
-  resolution: "@safe-global/safe-deployments@npm:1.37.45"
-  dependencies:
-    semver: "npm:^7.6.2"
-  checksum: 10/5ee52114ad57a8db93245f0ca37afe8f50b825ad562ffd6b3122f63c55006a0344947473d209331deb3e01296a444ce25a15b5797e28a1f77443df46a5e4ed3f
+  checksum: 10/65b0c02c66664f85cee0d2620bc2e8e83100c4f14034ee5040dec1f62ef3f7db3d8cd164375af3e3d23053c8bfad9e6c510825676bc35d71f11918bb1033e0a8
   languageName: node
   linkType: hard
 
@@ -10303,6 +10294,8 @@ __metadata:
     msw: "npm:^2.7.3"
     prettier: "npm:^3.6.2"
   dependenciesMeta:
+    "@safe-global/safe-deployments":
+      built: false
     cypress:
       built: true
     next:
